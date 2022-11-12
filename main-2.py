@@ -39,6 +39,6 @@ while not game_over:
     if "_" not in display or lives < 0:
         game_over = True
         if "_" not in display:
-              print("You Win")
+              print("\nYou Win")
         else:
-              print("You Lose")
+              print("\nYou Lose")
